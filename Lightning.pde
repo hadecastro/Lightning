@@ -34,7 +34,7 @@ void mousePressed()
 	endX = 150;
 	walls(30, 10, 90);
 	fill(100);
-	rect(10, 200, 280, 40);	
+	rect(10, 200, 280, 20);	
 	fill((int)(Math.random()*256)+100, (int)(Math.random()*256)+100, (int)(Math.random()*256)+100, 100);
 	rect(0, 0, 300, 300);
 }
