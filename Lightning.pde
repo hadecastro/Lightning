@@ -1,11 +1,11 @@
-int startX = 150;
+int startX = 200;
 int startY = 00;
 int endX = 0;
-int endY = 150;
+int endY = 200;
 
 void setup()
 {
-  size(300,300);
+  size(400,400);
   strokeWeight(2);
   background(0);
 }
@@ -14,7 +14,7 @@ void draw()
 {
 	background(0);
 	stroke((int)(Math.random()*256)+100, (int)(Math.random()*256)+100, (int)(Math.random()*256)+100);
-	while (endX < 300)
+	while (endX < 400)
 	{
 		endY = startY + (int)(Math.random()*10);
 		endX = startX + (int)(Math.random()*19)-9;
@@ -45,5 +45,4 @@ void walls(int r, int g, int b)
 	rect(0, 200, 300, 150);
 	rect(0, 0, 20, 300);
 	rect(280, 0, 20, 300);
-
 }
