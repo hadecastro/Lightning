@@ -33,9 +33,15 @@ void mousePressed()
 	endY = 0;
 	endX = 150;
 	walls(30, 10, 90);
+	//windowsill
 	fill(100);
-	rect(10, 200, 280, 20);	
-	fill((int)(Math.random()*256)+100, (int)(Math.random()*256)+100, (int)(Math.random()*256)+100, 100);
+	rect(10, 200, 280, 20);
+	//curtains
+	fill(90, 10, 10);
+	rect(0, 0, 30, 250);
+	rect(270, 0, 30, 250);
+	//flash
+	fill(200, 200, 200, 100);
 	rect(0, 0, 300, 300);
 }
 
