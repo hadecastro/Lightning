@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(40, 40, 40);
     color: rgb(255, 255, 255);
     font-family: "Open Sans", sans-serif;
     text-align: center;
@@ -17,6 +17,7 @@ header {
 }
 
 footer {
+    border-style: dashed;
 	font-style: italic;
 	font-size: 90%;
 }
