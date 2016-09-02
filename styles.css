@@ -17,6 +17,7 @@ header {
 }
 
 footer {
+    margin: 50px 50px 50px 50px;
     border-style: dashed;
 	font-style: italic;
 	font-size: 90%;
